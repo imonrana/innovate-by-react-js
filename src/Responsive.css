@@ -1,0 +1,330 @@
+/* Extra Small device media Query start */
+@media (max-width:575.98px){
+    /* common css start */
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .pera {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 20px;
+        border-radius: 40px;
+    }
+    
+
+    button a {
+        font-size: 14px;
+        line-height: 14px
+    }
+    
+
+    /* common css end */
+   /* navbar css start */
+  nav .navbar button {
+	border-radius: 32px;
+	padding: 13px 25px;
+}
+
+nav ul, li {
+	list-style: none;
+    margin-top: 18px;
+}
+nav .navbar-nav .nav-item .nav-link {
+	font-size: 16px;
+}
+.navbar button a {
+	font-size: 16px;
+}
+.navbar button {
+	padding: 10px 20px;
+}
+/* navbar css end */
+
+/* banner css start */
+#banner {
+    padding-top: 150px;
+	padding-bottom: 135px;
+}
+#banner h1 {
+	font-size: 39px;
+	line-height: 50px;
+}
+
+#banner p {
+	font-size: 16px;
+	line-height: 32px;
+	padding: 20px 0px 20px 0px;
+	width: 410px;
+}
+#banner .btn {
+	display: flex;
+    justify-content: center;
+}
+
+#banner .btn button:hover {
+    padding: 10px 20px;
+}
+
+    
+#banner .btn button:first-child {
+    margin-right: 16px;
+}
+
+
+#banner .banner_icon img {
+	bottom: 0%;
+}
+
+/* banner css end */
+
+/* counter css start */
+#counter {
+	padding: 50px 0;
+	position: relative;
+	background-color: #F9F9FB;
+}
+#counter .counter_item{
+	margin-bottom: 20px;
+}
+
+#counter .counter_item h4 {
+	font-size: 48px;
+	line-height: 60px;
+}
+
+#counter .counter_item p {
+	font-size: 29px;
+	line-height: 37px;
+}
+
+#counter .counter_item .item_info::after {
+	display: none;
+}
+
+
+
+/* counter css end */
+
+/* choose us css start */
+
+#choose_us .pera {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#choose_us .choose_us_info {
+	text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+#choose_us .choose_us_info .pera {
+	margin: 10px auto;
+}
+#choose_us .pera {
+	font-size: 14px;
+}
+
+
+
+/* choose us css end */
+
+/* do css start */
+
+#do {
+	padding: 50px 0;
+}
+
+#do .do_info{
+    text-align: center;
+}
+
+#do .do_info .pera {
+	line-height: 28px;
+	margin-top: 0px;
+	margin-bottom: 14px;
+}
+#do .do_card {
+	padding: 33px 46px;
+}
+#do .do_card:first-child {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#do .do_card .card_info .card_title {
+	font-size: 22px;
+}
+
+#do .do_card .card_info .pera {
+	margin: 0 auto;
+}
+
+#do .do_card .card_btn button a {
+	font-size: 14px;
+}
+
+
+/* do css end */
+
+/* real impact css start */
+#real_impact .impact_title_info {
+	margin-bottom: 44px;
+}
+
+#real_impact .impact_title_info .pera {
+	width: 409px;
+}
+
+#real_impact .item {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#real_impact .item .item_title {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+/* real impact css end */
+
+/* right plan css start */
+#right_plan {	
+    padding: 50px 0;
+}
+
+#right_plan .right_plan_card {
+	margin-top: 20px;
+    padding: 30px 0;
+}
+#right_plan .right_plan_card .ammount {
+	font-size: 36px;
+}
+#right_plan .right_plan_card .ammount sup {
+	font-size: 20px;
+}
+/* right plan css end */
+
+/* testimonial css start */
+#testimonial .slider {
+	padding: 75px 0 56px 0;
+    margin-top: 90px;
+}
+#testimonial .slider .profile img {
+	height: 100px;
+	width: 100px;
+}
+
+#testimonial .slider .slider_pera {
+	font-size: 14px;
+	line-height: 28px;
+	width: 365px;
+	padding: 13px 0px 10px 0px;
+}
+
+#testimonial .slider .profile_info h6 {
+	font-size: 16px;
+}
+
+#testimonial .slider p {
+	font-size: 10px;
+}
+
+#testimonial .slider .button .prev {
+	height: 48px;
+	width: 48px;
+	line-height: 48px;
+
+}
+#testimonial .slider .button .next {
+    height: 48px;
+	width: 48px;
+	line-height: 48px;
+
+}
+
+
+/* testimonial css end */
+
+
+/* also like part start */
+#also_like .also_like_title .title {
+	font-size: 35px;
+}
+#also_like .also_like_list .item {
+    margin-bottom: 10px;
+	gap: 30px;
+}
+#also_like .also_like_list .item .list_img img {
+	height: 100px;
+	width: 100px;
+}
+#also_like .also_like_list .item .list_info ul li a {
+	font-size: 10px;
+}
+
+#also_like .also_like_list .item .list_info .list_pera {
+	font-size: 20px;
+	line-height: 32px;
+	margin: 10px 0;
+}
+#also_like .also_like_list .item .list_info button a {
+	font-size: 15px;
+}
+
+#also_like .also_like_shape img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 120px;
+}
+
+/* also like css end */
+
+/* footer css start */
+#footer {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+#footer .footer_description .pera {
+	font-size: 15px;
+}
+#footer .footer_menu {
+	display: flex;
+    justify-content: center;
+	column-gap: 28px;
+	margin-top: 20px;
+}
+
+#footer .footer_menu .item p {
+	font-size: 16px;
+
+}
+
+#footer .footer_menu .item ul {
+	padding-top: 0px;
+    padding-bottom: 0;
+}
+#footer .footer_menu .item ul li {
+	margin-bottom: 10px;
+}
+#footer .footer_menu .item ul li a {
+	font-size: 14px;
+
+}
+#footer .footer_bottom p, .footer_bottom p a {
+	font-size: 12px;
+}
+
+/* footer css end */
+
+
+}
+
+
+
+
+/* Extra Small device media Query end */
